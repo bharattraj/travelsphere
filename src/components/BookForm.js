@@ -33,7 +33,8 @@ export const BookForm = () => {
           <h3>Email Address*</h3>
           <input
             type="email"
-            id="email"
+            name="reply_to"
+            id="reply_to"
             placeholder="abc@gmail.com"
             required
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
